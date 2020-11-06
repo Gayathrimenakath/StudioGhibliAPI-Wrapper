@@ -3,7 +3,10 @@ API wrapper for the Studio Ghibli API
 An API that allows us to ​request a list of movies that feature a particular species​.
 
 Example request: ​ http://localhost:8080​ /movies?species=<species_id>
+
 Example response:
+
+```json
 [
     {
         "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe",
@@ -23,3 +26,4 @@ Example response:
         "rt_score": "97"
     }
 ]
+```
