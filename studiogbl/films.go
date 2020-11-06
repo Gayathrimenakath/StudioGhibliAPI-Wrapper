@@ -18,8 +18,8 @@ type Film struct {
 }
 
 //GetFilms returns the films
-func GetFilms(id string) (Film, error) {
-	filmRes, err := http.Get(id)
+func GetFilms(filmURL string) (Film, error) {
+	filmRes, err := http.Get(filmURL)
 	if err != nil {
 		return Film{}, err
 	}

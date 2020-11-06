@@ -13,7 +13,6 @@ const baseURL string = "https://ghibliapi.herokuapp.com"
 //Species data type for the species and their fims
 type Species struct {
 	ID    string   `json:"id"`
-	Name  string   `json:"name"`
 	Films []string `json:"films"`
 }
 
